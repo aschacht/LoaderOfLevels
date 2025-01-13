@@ -10,9 +10,9 @@ import Actions.ActionStack;
 import Actions.ActionsInterface;
 import Actions.NoAction;
 import Constructs.Point;
+import FlatLand.Physics.TypeOfEntity;
 import FlatLander.BoundingBox;
 import FlatLander.FlatLander;
-import FlatLander.TypeOfEntity;
 import flatLand.trainingGround.Sprites.Sprites;
 import flatLand.trainingGround.Sprites.TerminalSprite;
 

@@ -9,15 +9,16 @@ import java.io.PrintStream;
 
 import javax.swing.JPanel;
 
+
 import Actions.ActionStack;
 import Actions.ActionsInterface;
 import Box.Box.Box;
 import Box.Box.PromptObserver;
 import Constructs.Point;
+import FlatLand.Physics.TypeOfEntity;
 import FlatLander.BoundingBox;
 import FlatLander.FlatLander;
 import FlatLander.PlayerKeybordHandler;
-import FlatLander.TypeOfEntity;
 import Player.Player;
 
 import flatLand.trainingGround.Sprites.ObserverPrompt;
@@ -37,7 +38,7 @@ public class PlayerWrper extends Player {
 	private ByteArrayOutputStream baos;
 	private Box box;
 	XMLLoader.FlatLanderWrper terminal = null;
-	String terminalPath = "/home/wes/Wisper Tech 1.0/THEORY/GAMES/LoaderOfLevels/resources/charmap-oldschool_white_sew.png";
+	String terminalPath = "/home/wes/git/repository14/LoaderOfLevels/resources/charmap-oldschool_white_sew.png";
 	private PlayerKeybordHandler keyboardHandler;
 
 	public PlayerWrper(Color myColor, int x, int y, String name, double startingDir, boolean collidable) {
@@ -46,8 +47,8 @@ public class PlayerWrper extends Player {
 			System.err.println("keleton");
 
 
+	///buildTerminal();
 	}
-//	buildTerminal();
 
 	public void buildKeyBoardHandler(GameScreen panel) {
 		keyboardHandler = new PlayerKeybordHandler(this);
