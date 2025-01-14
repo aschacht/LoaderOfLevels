@@ -14,7 +14,6 @@ import FlatLandStructure.ViewableFlatLand;
 import FlatLander.BoundingBox;
 import FlatLander.FlatLander;
 import flatLand.trainingGround.Sprites.Sprites;
-import flatLand.trainingGround.Sprites.TerminalSprite;
 
 public class FlatLanderWrper extends FlatLander implements Terminal {
 

@@ -27,6 +27,7 @@ import flatLand.trainingGround.Sprites.Sprites;
 import flatLand.trainingGround.Sprites.TerminalSprite;
 import theStart.theView.TheControls.GameScreen;
 
+
 public class PlayerWrper extends Player {
 
 	protected Sprites sprite = null;
